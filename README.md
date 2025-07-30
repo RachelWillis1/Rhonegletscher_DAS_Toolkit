@@ -68,8 +68,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RachelWillis1/Rhonegletscher_DAS_ML_Toolkit.git
-   cd Rhonegletscher_DAS_ML_Toolkit
+   git clone https://github.com/RachelWillis1/Rhonegletscher_DAS_Toolkit.git
+   cd Rhonegletscher_DAS_Toolkit
    ```
 
 2. Prepare repository:
