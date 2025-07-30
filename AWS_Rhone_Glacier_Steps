@@ -1,0 +1,105 @@
+## Access AWS
+- Access AWS through school email.
+- Once your at the AWS access portal, click ITS-AWS-GCER (if you don't see this
+  then you don't have access to the AWS account)
+- Click Research Administrator to get to the Console Home.
+
+## Create EC2 Computing Instance
+- Click EC2 to get to EC2 instance page.
+- First, you need to create a key pair which will allow you to access an EC2
+  instance.
+- Under Network and Security, select Key Pairs to create your own (file format:
+  .pem).
+- Once the key pair is created, a private key file (.pem) will be automatically
+  downloaded to your local computer. Keep this file secure — AWS does not store
+  the private key, and you cannot retrieve it later if lost. These are useful
+  when transferring files between your local computer and EC2 instance.
+- Then click Instances and Launch Instance to create your own computing
+  instance.
+- Name your instance, select instance type (c5.xlarge), select your key pair, &
+  finally launch your instance.
+
+## Create and attach computing volumes
+- Under Elastic Block Store, select Volumes.
+- There should be one volume listed which is the root volume of the EC2 instance
+  that you just launched. This volume is required to spin up your instance
+  properly.
+- We need additional volumes for our computations and python environments.
+- Select Create Volume, make sure the Availability Zone matches that of your
+  instance (us-east-2c), & create your volume
+- Do this again so you have one for computations and one for python
+- Select one of the additional volumes you just created, click Actions, & Attach
+  Volume
+- Select your instance (Note: if your instance is not listed then the
+  Availability Zone of your volume doesn't match your instance), select device
+  name (/dev/sdf), & attach volume
+- Do the same for the second volume (device name: /dev/sdg)
+
+## Connect to your instance
+- Select your instance & press connect
+- Copy ssh command & paste into CloudShell
+- Type yes to continue connecting
+- Once you are connected your user name should be ec2-user
+- Type sudo su to switch to superuser (root user)
+- In a different tab go back to AWS access portal, click Access keys, & copy AWS
+  environment variables
+- Go back to your EC2 instance and paste. These configure your instance. If you
+  don't do this you will get an error that looks something like this:
+  ~ An error occurred (ExpiredToken) when calling the ListObjectsV2 operation:
+    The provided token has expired.
+- Now you're all set to do some work! :)
+
+## Copy scripts from local computer to EC2 instance
+- First you need to copy the mounting script (mount_vols_create_conda_env.sh).
+  DO NOT copy any other scripts before running the mounting script. The volumes
+  must be mounted first before any other scripts are copied over or else the
+  other scripts will just be deleted!
+- On your local computer, run
+  scp -r -i your_keypair.pem path/to/mount_vols_create_conda_env.sh
+  ec2-user@ec2...your_ec2_user_name...us-east-2.compute.amazonaws.com:/home/ec2-user
+  (your EC2 username is the same you used to ssh to the EC2 instance).
+- Type yes to continue connecting.
+- The mounting file should be on your EC2 instance now, run the mounting file
+- Press Enter to continue through the Anaconda installation. Type yes to accept
+  license terms. Install location: /home/ec2-user/Anaconda/anaconda3. Type no
+  when asked: Do you wish the installer to initialize Anaconda3 by running conda
+  init? Continue through all python dependency installations.
+- Run: source /home/ec2-user/Anaconda/anaconda3/bin/activate to refresh. You
+  should now see (base) beside your username.
+- Activate python environment by running: conda activate py3.
+- You should also have 2 new directories (Anaconda & Rhone_Glacier). Check that
+  your volumes are mounted to the directories by running: lsblk. This gives you
+  a list of volumes. Yours are
+
+  nvme1n1       259:4    0  100G  0 disk /home/ec2-user/Anaconda
+  nvme2n1       259:5    0  100G  0 disk /home/ec2-user/Rhone_Glacier
+
+- Now you can copy the rest of the scripts from your local computer over to the
+  Rhone_Glacier directory on your EC2 instance.
+- From your local computer run:
+  scp -r -i your_keypair.pem path/to/Rhone_Glacier/codes
+  ec2-user@ec2...your_ec2_user_name...us-east-2.compute.amazonaws.com:/home/ec2-user/Rhone_Glacier
+  (Note: if you get an error "scp: stat remote: No such file or directory" then
+  you need to adjust access to the Rhone_Glacier directory on your EC2 instance.
+  On your EC2 instance run: chmod -R 777 Rhone_Glacier. Then try scp again.)
+
+## Process Rhone Glacier data
+- On your EC2 instance, navigate to Rhone_Glacier/codes. Here you should have
+  the following: S3filelist_selectiontxt.py, S3foldefileliststxt.py,
+  output, runx.sh, scripts-main, skipped_files.txt.
+- To process data: ./runx.sh | tee output.txt
+  ~ Note: You have to define the time range for the processed data
+    (e.g., 20200707_074000.000 - 20200707_075000.000)
+  ~ Note: You have to actively be in the EC2 terminal for code to run
+- Alernatively you can use nohup which runs processes in the background allowing
+  you to leave the EC2 terminal: nohup ./runx.sh &
+  ~ Note: You will have to go into runx.sh and manually change start times & end
+    times.
+  ~ To terminate a nohup run you type kill process_number (kill 54765)
+  ~ Also nohup produces a nohup.out file that records all the print statements
+    however it saves all the runs so if you don't delete after a run the print
+    statements from the current run will just build on the previous.
+  ~ When the run is done you'll get a statement in terminal that looks something
+    like this: [1]+  Done                    nohup ./runx.sh
+
+- TERMINATE INSTANCE & DELETE ALL VOLUMES when you're finished processing
