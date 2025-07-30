@@ -1,4 +1,4 @@
-# Rhonegletscher_DAS_ML_Toolkit
+# Rhonegletscher DAS Toolkit
 
 This repository contains the Python codebase used in support of the manuscript titled:
 
