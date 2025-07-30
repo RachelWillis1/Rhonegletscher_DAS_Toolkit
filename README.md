@@ -6,7 +6,7 @@ This repository contains the Python codebase used in support of the manuscript t
 
 ## Overview
 
-This code repository supports the feature extraction, clustering, and visualization of cryoseismic events with Distributed Acoustic Sensing (DAS) data collected from Rhonegletscher, Switzerland. The core workflow involves:
+This code repository supports the feature extraction, ML, visualization, & initial analysis of cryoseismic events with Distributed Acoustic Sensing (DAS) data collected from Rhonegletscher, Switzerland. The core workflow involves:
 
 - Preprocessing and covariance-based feature extraction from DAS data
 - Comparison of supervised and unsupervised ML for event classification
