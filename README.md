@@ -87,6 +87,7 @@ Ensure you have the following installed:
 
 ## Citation
 
-If you use this code, please cite:
+If you use this notebook or the associated methodology in your work, please cite any of our related publication:  
 
-> Willis, R. M., et al. (in preparation). Creating a Comprehensive Cryoseismic Catalog at Rhonegletscher: A Scalable Approach Using Distributed Acoustic Sensing and Machine Learning.
+- *Willis, R. M., et al. (in preparation). Creating a Comprehensive Cryoseismic Catalog at Rhonegletscher: A Scalable Approach Using Distributed Acoustic Sensing and Machine Learning*
+- *Willis, R. M. (2025). From Injection to Ice: Advancing Climate Solutions Through Seismology, Machine Learning, and Open Science (Doctoral dissertation). Colorado School of Mines.*
