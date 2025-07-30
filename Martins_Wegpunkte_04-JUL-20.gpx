@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="EasyGPS 7.13 using GPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_overlay/0/3 http://www.topografix.com/GPX/gpx_overlay/0/3/gpx_overlay.xsd http://www.topografix.com/GPX/gpx_modified/0/1 http://www.topografix.com/GPX/gpx_modified/0/1/gpx_modified.xsd">
+<metadata>
+<link href="http://www.garmin.com">
+<text>Garmin International</text>
+</link>
+<bounds minlat="46.61375900" minlon="8.39214600" maxlat="46.63466000" maxlon="8.40049100"/>
+<extensions>
+<time xmlns="http://www.topografix.com/GPX/gpx_modified/0/1">2020-07-16T07:09:52.745Z</time>
+</extensions>
+</metadata>
+<wpt lat="46.63466000" lon="8.39538400">
+<ele>2869.773</ele>
+<time>2020-07-04T10:30:48Z</time>
+<name>DAS1</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>DAS1</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63353800" lon="8.39522400">
+<ele>2878.448</ele>
+<time>2020-07-04T10:39:37Z</time>
+<name>1</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>1</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63311200" lon="8.39525400">
+<ele>2878.927</ele>
+<time>2020-07-04T10:42:14Z</time>
+<name>2 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>2 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63236500" lon="8.39504300">
+<ele>2881.605</ele>
+<time>2020-07-04T10:48:22Z</time>
+<name>3</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>3</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63216300" lon="8.39501600">
+<ele>2882.269</ele>
+<time>2020-07-04T10:49:59Z</time>
+<name>4 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>4 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63127700" lon="8.39474800">
+<ele>2882.139</ele>
+<time>2020-07-04T10:55:25Z</time>
+<name>5</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>5</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63065400" lon="8.39460300">
+<ele>2882.136</ele>
+<time>2020-07-04T10:58:48Z</time>
+<name>6</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>6</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63046000" lon="8.39461200">
+<ele>2882.176</ele>
+<time>2020-07-04T11:00:12Z</time>
+<name>7 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>7 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.63018500" lon="8.39454400">
+<ele>2885.709</ele>
+<time>2020-07-04T11:04:29Z</time>
+<name>8</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>8</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62946800" lon="8.39446500">
+<ele>2884.400</ele>
+<time>2020-07-04T11:07:27Z</time>
+<name>9</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>9</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62938000" lon="8.39440200">
+<ele>2884.045</ele>
+<time>2020-07-04T11:08:35Z</time>
+<name>10 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>10 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62841700" lon="8.39461100">
+<ele>2878.706</ele>
+<time>2020-07-04T11:13:15Z</time>
+<name>11</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>11</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62814900" lon="8.39448000">
+<ele>2877.422</ele>
+<time>2020-07-04T11:15:28Z</time>
+<name>12</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>12</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62751200" lon="8.39447500">
+<ele>2874.463</ele>
+<time>2020-07-04T11:17:24Z</time>
+<name>13 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>13 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62648500" lon="8.39413800">
+<ele>2868.987</ele>
+<time>2020-07-04T11:21:24Z</time>
+<name>14 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>14 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62612000" lon="8.39434800">
+<ele>2866.655</ele>
+<time>2020-07-04T11:25:15Z</time>
+<name>15</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>15</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62540400" lon="8.39500800">
+<ele>2862.618</ele>
+<time>2020-07-04T11:28:13Z</time>
+<name>16</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>16</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62481200" lon="8.39563200">
+<ele>2857.396</ele>
+<time>2020-07-04T11:33:28Z</time>
+<name>17 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>17 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62423600" lon="8.39623500">
+<ele>2853.278</ele>
+<time>2020-07-04T11:39:13Z</time>
+<name>18</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>18</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62364500" lon="8.39701100">
+<ele>2846.047</ele>
+<time>2020-07-04T11:41:25Z</time>
+<name>19 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>19 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62297100" lon="8.39773200">
+<ele>2841.019</ele>
+<time>2020-07-04T11:45:55Z</time>
+<name>20</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>20</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62202700" lon="8.39881700">
+<ele>2833.018</ele>
+<time>2020-07-04T11:50:15Z</time>
+<name>21</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>21</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62168800" lon="8.39928600">
+<ele>2830.115</ele>
+<time>2020-07-04T11:52:18Z</time>
+<name>22 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>22 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.62073700" lon="8.40016700">
+<ele>2825.625</ele>
+<time>2020-07-04T11:56:47Z</time>
+<name>23 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>23 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61998500" lon="8.40049100">
+<ele>2821.242</ele>
+<time>2020-07-04T12:00:59Z</time>
+<name>24</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>24</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61948300" lon="8.40042800">
+<ele>2818.502</ele>
+<time>2020-07-04T12:03:08Z</time>
+<name>25</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>25</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61917300" lon="8.40031300">
+<ele>2816.323</ele>
+<time>2020-07-04T12:04:10Z</time>
+<name>26 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>26 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61848700" lon="8.39954700">
+<ele>2811.062</ele>
+<time>2020-07-04T12:08:11Z</time>
+<name>27</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>27</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61828800" lon="8.39929000">
+<ele>2809.720</ele>
+<time>2020-07-04T12:09:17Z</time>
+<name>28 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>28 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61768600" lon="8.39839300">
+<ele>2804.774</ele>
+<time>2020-07-04T12:13:32Z</time>
+<name>29</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>29</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61703900" lon="8.39768000">
+<ele>2797.417</ele>
+<time>2020-07-04T12:15:51Z</time>
+<name>30 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>30 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61590900" lon="8.39817500">
+<ele>2782.523</ele>
+<time>2020-07-04T12:21:08Z</time>
+<name>32</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>32</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61535400" lon="8.39832400">
+<ele>2776.230</ele>
+<time>2020-07-04T12:24:17Z</time>
+<name>33</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>33</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61497500" lon="8.39822100">
+<ele>2772.232</ele>
+<time>2020-07-04T12:25:37Z</time>
+<name>34 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>34 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61444000" lon="8.39778400">
+<ele>2764.089</ele>
+<time>2020-07-04T12:32:16Z</time>
+<name>35</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>35</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61412300" lon="8.39725000">
+<ele>2757.427</ele>
+<time>2020-07-04T12:34:07Z</time>
+<name>36</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>36</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61385800" lon="8.39655100">
+<ele>2753.656</ele>
+<time>2020-07-04T12:36:05Z</time>
+<name>37</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>37</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61375900" lon="8.39597400">
+<ele>2752.528</ele>
+<time>2020-07-04T12:37:36Z</time>
+<name>DAS2</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>DAS2</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61399400" lon="8.39537200">
+<ele>2754.586</ele>
+<time>2020-07-04T12:53:54Z</time>
+<name>001</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>001</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61398200" lon="8.39538400">
+<ele>2754.589</ele>
+<time>2020-07-04T12:54:02Z</time>
+<name>38</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>38</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61431600" lon="8.39441200">
+<ele>2758.457</ele>
+<time>2020-07-04T12:56:55Z</time>
+<name>39</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>39</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61454800" lon="8.39325400">
+<ele>2759.893</ele>
+<time>2020-07-04T12:59:02Z</time>
+<name>40 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>40 R</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61428200" lon="8.39267800">
+<ele>2753.061</ele>
+<time>2020-07-04T13:03:14Z</time>
+<name>41</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>41</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="46.61393700" lon="8.39214600">
+<ele>2746.228</ele>
+<time>2020-07-04T13:04:41Z</time>
+<name>42 R</name>
+<sym>Flag, Blue</sym>
+<type>Blue Flag</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>42 R</label_text>
+</label>
+</extensions>
+</wpt>
+<extensions>
+</extensions>
+</gpx>
