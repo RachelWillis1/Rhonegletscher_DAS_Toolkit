@@ -21,6 +21,7 @@ Rhonegletscher_DAS_ML_Toolkit/
 ├── AWS_Rhone_Glacier_Steps         # Steps to run toolkit on AWS
 ├── data/                           # Cable layout info, sample features, training classification,
                                       random forest predictions, STA/LTA event predictions
+├── results/                        # Full catalog of random forest predictions
 ├── mount_vols_create_conda_env.sh  # Bash script for AWS setup
 ├── random_forest_model.pkl         # Trained random forest model
 ├── README.md                       # This file
